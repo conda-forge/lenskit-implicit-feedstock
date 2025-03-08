@@ -1,13 +1,13 @@
 {% set name = "lenskit-implicit" %}
-{% set version = "0.14.0" %}
+{% set version = "2025.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lenskit_implicit-{{ version }}.tar.gz
-  sha256: d6d50dc99ead9c344649fc7e0d8f86738617084ff06bbe3fc091be2098c440b6
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lenskit_implicit-{{ version }}.tar.gz
+  sha256: 6d15b154bd45552d563e75b986d85806e8c693a021155dc1c60bbaf777161158
 
 build:
   noarch: python
